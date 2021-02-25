@@ -7,6 +7,7 @@ sock.listen(1)
 q = []
 
 while True:
+    print("listening")
     conn, addr = sock.accept()
     print('connected:', addr)
     while True:
