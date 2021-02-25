@@ -1,7 +1,7 @@
 import socket
 
 sock = socket.socket()
-sock.connect(('localhost', 9090))
+sock.connect(('2.57.185.140', 9090))
 sock.send('hello, world!'.encode())
 
 data = sock.recv(1024)
